@@ -7,7 +7,10 @@
 */
 
 document.addEventListener("DOMContentLoaded", function() {
-  // Paramètres ici
+
+  /*
+  **  Paramètres de la chatbox, modifiables
+  */
 
   // URL de la Chatbox - La chatbox doit être activée dans les modules !
   var chatbox_url = "http://url_de_votre_forum.forumactif.fr/chatbox";
@@ -33,7 +36,10 @@ document.addEventListener("DOMContentLoaded", function() {
   // Index Z, à ne modifier qu'en cas de bug de profondeur !
   var z_index = "10000";
 
-  // Code, ne pas toucher !
+  /*
+  **  Reste du code, ne pas toucher ! (À vos risques et périls)
+  */
+
   var css = ".fp-btn-cb:hover { cursor: pointer; } .fp-frm { transition: " + slide_time + "; }";
   var style = document.createElement("style");
   if (style.styleSheet) {
