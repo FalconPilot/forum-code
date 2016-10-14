@@ -3,4 +3,4 @@ Voilà, juste quelques codes prédéfinis pour forums RPG. Histoire de dire que 
 parce-que ça m'arrive souvent d'en faire.
 
 # Liste de codes ajoutés
-- Chatbox simple à configurer `chatbox.js`
+- `chatbox.js`  Chatbox simple à configurer
