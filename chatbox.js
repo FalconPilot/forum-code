@@ -27,11 +27,14 @@ document.addEventListener("DOMContentLoaded", function() {
   // true = gauche, false = droite
   var cb_left = true;
 
+  // Temps de transition, en secondes
+  var slide_time = "0.2s";
+
   // Index Z, à ne modifier qu'en cas de bug de profondeur !
   var z_index = "10000";
 
   // Code, ne pas toucher !
-  var css = ".fp-btn-cb:hover { cursor: pointer; } .fp-frm { transition: 0.2s; }";
+  var css = ".fp-btn-cb:hover { cursor: pointer; } .fp-frm { transition: " + slide_time + "; }";
   var style = document.createElement("style");
   if (style.styleSheet) {
     style.styleSheet.cssText = css;
