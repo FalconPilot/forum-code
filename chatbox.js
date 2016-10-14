@@ -1,5 +1,9 @@
 /*
 ** Intégration de Chatbox
+**
+** Par défaut, le code est prévu pour charger des chatbox Forumactif.
+** Cependant, il est possible de charger n'importe quel type de chatbox
+** disposant d'une URL qui lui est propre.
 */
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -87,3 +91,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }
   document.getElementsByTagName("body")[0].appendChild(elem);
 });
+
+/*
+**  Codé par FalconPilot, https://github.com/FalconPilot/forum-code
+*/
