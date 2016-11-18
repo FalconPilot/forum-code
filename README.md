@@ -4,3 +4,4 @@ parce-que ça m'arrive souvent d'en faire.
 
 # Liste de codes ajoutés
 - `chatbox.js` : Chatbox simple à configurer
+- `randombox.js` : Sélecteur aléatoire de phrases dans un élément

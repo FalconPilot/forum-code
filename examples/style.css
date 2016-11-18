@@ -1,0 +1,17 @@
+/*
+**  CSS Variables
+*/
+
+:root {
+  --blue: 50, 100, 150;
+}
+
+/*
+**  General
+*/
+
+body {
+  margin: 0;
+  color: #CCC;
+  background-color: #333;
+}

@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function() {
       frm.id = "fp-open";
     } else {
       if (cb_left) {
-        frm.style.left = "-" + cb_width;;
+        frm.style.left = "-" + cb_width;
       } else {
         frm.style.right = "-" + cb_width;
       }
