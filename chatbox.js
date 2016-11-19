@@ -1,9 +1,11 @@
 /*
-** Intégration de Chatbox
+**  Intégration de Chatbox
 **
-** Par défaut, le code est prévu pour charger des chatbox Forumactif.
-** Cependant, il est possible de charger n'importe quel type de chatbox
-** disposant d'une URL qui lui est propre.
+**  Par défaut, le code est prévu pour charger des chatbox Forumactif.
+**  Cependant, il est possible de charger n'importe quel type de chatbox
+**  disposant d'une URL qui lui est propre.
+**
+**  La classe du cadre est "fp-frm".
 */
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -23,6 +25,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Marge du bas
   var bottom_offset = "5%";
+
+  // Largeur de la bordure, en px
+  var border_width = "0px";
+
+  // Style de la bordure
+  var border_style = "solid";
+
+  // Couleur de la bordure
+  var border_color = "transparent";
 
   // URL du bouton de la chatbox
   var btn_url = "url_du_bouton";
@@ -56,7 +67,8 @@ document.addEventListener("DOMContentLoaded", function() {
   box.src = chatbox_url;
   box.style.width = cb_width;
   box.style.height = cb_height;
-  box.style.border = "none";
+  box.style.border = border_width + " " + border_style + " " + border_color;
+  box.style.boxSizing = "border-box";
 
   cbtn.src = btn_url;
   cbtn.className = "fp-btn-cb";
